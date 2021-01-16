@@ -1,0 +1,74 @@
+@import "Footer_Header.css";
+
+:root{
+    --ColorMain0:       #2A86BF;
+    --ColorMain1:       #C4EAF2;
+    --Color0:           #000000;
+    --Color1:           #ffffff;
+    --ColorNuLLInpt:      #B8CCE4;
+}
+
+html, body{
+    background-color: var(--Color1);
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    display: block;
+    background-attachment: fixed;
+    overflow-x: visible;
+}
+
+.content {
+    margin: 0%;
+    width: 100%;
+    margin-top: 100px;
+    padding: 0%;
+    
+}
+
+.text{
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.table {
+    margin: 0%;
+    width: 100%;
+    padding: 0%;
+    border-collapse: collapse;
+    
+}
+
+td, th {
+    border: var(--Color0) 1px solid;
+    padding: 0%;
+    margin: 0%;
+    height: 30px;
+    
+}
+
+.Columns {
+    text-align: center;
+    font-weight: bold;
+    padding: 0%;
+    margin: 0%;
+    
+}
+.Input{
+    height: 100%;
+    width: 200px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0%;
+    margin: 0%;
+    border: none;
+}
+
+.Input:focus {
+    outline-style: none;
+}
+
+.NullInput {
+    background-color: var(--ColorNuLLInpt);
+}

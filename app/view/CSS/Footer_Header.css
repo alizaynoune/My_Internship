@@ -1,0 +1,33 @@
+.NavBar{
+    background-color: var(--ColorMain0);
+    height: 80px;
+    width: 100%;
+    /* border: dashed palegreen 1px; */
+    position: fixed;
+    top: 0;
+    transition: all 1.5s;
+}
+
+.NavBar a{
+    text-decoration: none;
+    color: var(--Color1);
+    font-size: 21px;
+}
+.NavBar a:active{
+    outline-style: none;
+    color: var(--Color1);
+    font-size: 20px;
+}
+
+
+
+.Footer{
+    border: darkblue dashed 1px;
+    background-color: var(--ColorMain0);
+    /* position: absolute; */
+    height: 30px;
+    width: 100%;
+    bottom: 0%;
+    /* padding: 10px; */
+
+}
