@@ -14,7 +14,7 @@
         <table class="table">
             <thead class="headTable">
                 <th><h2>RUBRIQUES</h2></th>
-                <th><h2>NE SEPRONONCE</h2></th>
+                <th><h2>NE SE PRONONCE</h2></th>
                 <th><h2>PAS DU TOUT</h2></th>
                 <th><h2>PEU SATISFAIT</h2></th>
                 <th><h2>SATISFAIT</h2></th>
@@ -23,7 +23,7 @@
             </thead>
             <tbody>
             <tr class="NullInput Columns">
-                <td><h2>AUROCAR</h2></td>
+                <td><h2>I- AUTOCAR</h2></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -79,7 +79,7 @@
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
             </tr>
             <tr class="NullInput Columns">
-                <td ><h2>CONDUCTEUR</h2></td>
+                <td ><h2>II- CONDUCTEUR</h2></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -143,7 +143,7 @@
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
             </tr>
             <tr class="NullInput Columns">
-                <td><h2>ACTIVITE</h2></td>
+                <td><h2>III- ACTIVITE</h2></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -183,15 +183,18 @@
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
             </tr>
             <tr class="NullInput Columns">
-                <td><h2>EN GENERAL</h2></td>
+                <td><h2>IV- EN GENERAL</h2></td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
             </tr>
+            
             </tbody>
         </table>
+        <textarea class="AreaInput" placeholder="V- Propositions d’amélioration :"></textarea>
+
         <input class="Submit" type='submit' value='OK'/>
 </form>
 </div>

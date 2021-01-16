@@ -72,3 +72,61 @@ td, th {
 .NullInput {
     background-color: var(--ColorNuLLInpt);
 }
+
+.AreaInput{
+    width: 100%;
+    height: 100px;
+}
+
+.AreaInput::placeholder{
+    font-weight: bold;
+    font-size: large;
+}
+
+.Submit{
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*table 3*/
+.headTable th  {
+    font-size: 10px;
+    background-color: #09C3FF;
+
+}
+
+.infoEng{
+    display: block;
+    margin-left: 20px;
+}
+.tableBloc * {
+    padding: 0%;
+    margin: 0%;
+    border-collapse: collapse;
+}
+
+.tableBloc{
+    display: inline-block;
+    height: 100px;
+    padding: 0%;
+    margin: 0%;
+    margin-right: -5px;
+    border-collapse: collapse;
+}
+
+
+.Bloc1 th{
+    height: 92px;
+}
+
+.Bloc2 td{
+    height: 46px;
+    padding: 0%;
+}
+
+.Bloc3 td{
+    height: 30px;
+}
