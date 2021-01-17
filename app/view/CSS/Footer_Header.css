@@ -4,12 +4,12 @@
     width: 100%;
     position: fixed;
     top: 0;
-    transition: all 1.5s;
+    transition: all 0.5s;
 }
 
 .NavBar a{
     text-decoration: none;
-    color: var(--Color1);
+    color:darkcyan;
     font-size: 19px;
     display: block;
 }
@@ -26,7 +26,7 @@
 
 .LogoLeft{
     position: absolute;
-    left: 2%;
+    left: 0%;
 }
 .LogoRight{
     right: 0%;
@@ -38,7 +38,7 @@
 .Footer{
     background-color: var(--ColorMain0);
     height: 35px;
-    width: 100%;
+    width: 99.98%;
     bottom: 0%;
     margin-top: 20px;
 

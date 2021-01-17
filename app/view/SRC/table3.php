@@ -10,7 +10,7 @@
         <div class="content">
             <div class="infoEng">
             <table class="tableBloc Bloc1">
-                <th><h1>SOTREG</h1></th>
+                <th><img class="imgTable" src="<?= '/app/icons/Sotreg.jpg'?>" alt="Sotreg"></th>
             </table>
             <table class="tableBloc Bloc2">
                 <tr><td>Enregistement</td></tr>

@@ -1,4 +1,5 @@
 @import "Footer_Header.css";
+@import "Table_data.css";
 
 :root{
     --ColorMain0:       #2A86BF;
@@ -49,11 +50,14 @@ td, th {
 }
 
 .Columns {
-    text-align: center;
+    /* text-align: center; */
     font-weight: bold;
     padding: 0%;
     margin: 0%;
     
+}
+.Columns p{
+    padding-left: 5px;
 }
 .Input{
     height: 100%;
@@ -71,10 +75,14 @@ td, th {
 
 .NullInput {
     background-color: var(--ColorNuLLInpt);
+    text-align: start;
+}
+.NullInput h2{
+    padding-left: 5px;
 }
 
 .AreaInput{
-    width: 100%;
+    width: 99.5%;
     height: 100px;
 }
 
@@ -91,42 +99,8 @@ td, th {
     font-weight: bold;
     font-size: 20px;
 }
+
+#Dot p {
+    padding-left: 20px;
+}
 /*table 3*/
-.headTable th  {
-    font-size: 10px;
-    background-color: #09C3FF;
-
-}
-
-.infoEng{
-    display: block;
-    margin-left: 20px;
-}
-.tableBloc * {
-    padding: 0%;
-    margin: 0%;
-    border-collapse: collapse;
-}
-
-.tableBloc{
-    display: inline-block;
-    height: 100px;
-    padding: 0%;
-    margin: 0%;
-    margin-right: -5px;
-    border-collapse: collapse;
-}
-
-
-.Bloc1 th{
-    height: 92px;
-}
-
-.Bloc2 td{
-    height: 46px;
-    padding: 0%;
-}
-
-.Bloc3 td{
-    height: 30px;
-}

@@ -1,0 +1,50 @@
+.headTable th  {
+    font-size: 10px;
+    background-color: #09C3FF;
+
+}
+
+.infoEng{
+    display: block;
+    margin-left: 20px;
+}
+.tableBloc * {
+    padding: 0%;
+    margin: 0%;
+    border-collapse: collapse;
+}
+
+.tableBloc{
+    display: inline-block;
+    height: 100px;
+    /* width: 10000px; */
+    padding: 0%;
+    margin: 0%;
+    margin-right: -5px;
+    border-collapse: collapse;
+    /* background-color: darkblue; */
+}
+
+
+.Bloc1 th{
+    height: 95px;
+    width: 70%;
+}
+
+.Bloc2 td{
+    height: 47px;
+    width: 330px;
+    padding: 0%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Bloc3 td{
+    height: 31px;
+    width: 90%;
+}
+
+.imgTable{
+    height: 80px;
+    width: 80px;
+}

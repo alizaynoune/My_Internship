@@ -14,8 +14,8 @@
         <table class="table">
             <thead class="headTable">
                 <th><h2>RUBRIQUES</h2></th>
-                <th><h2>NE SEPRONONCE</h2></th>
-                <th><h2>PAS DU TOUT</h2></th>
+                <th><h2>NE SE PRONONCE PAS</h2></th>
+                <th><h2>PAS DU TOUT SATISFAIT</h2></th>
                 <th><h2>PEU SATISFAIT</h2></th>
                 <th><h2>SATISFAIT</h2></th>
                 <th><h2>TRES SATISFAIT</h2></th>
@@ -31,7 +31,7 @@
                 <td></td>
             </tr>
             <tr class="Columns">
-                <td><p>Qualité des Prestations</p></td>
+                <td><p>&#10146; Qualité des Prestations</p></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
@@ -39,7 +39,7 @@
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
             </tr>
             <tr class="Columns">
-                <td><p>Capabilité à Satisfaire  les Besoins de transportt</p></td>
+                <td><p>&#10146; Capabilité à Satisfaire  les Besoins de transportt</p></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
@@ -47,7 +47,7 @@
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
             </tr>
             <tr class="Columns">
-                <td><p>Facturation</p></td>
+                <td><p>&#10146; Facturation</p></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
@@ -63,7 +63,7 @@
                 <td></td>
             </tr>
             <tr class="Columns">
-                <td><p>Ecoute</p></td>
+                <td><p>&#10146; Ecoute</p></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
@@ -71,7 +71,7 @@
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
             </tr>
             <tr class="Columns">
-                <td><p>Traitement réclamations à temps</p></td>
+                <td><p>&#10146; Traitement réclamations à temps</p></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
@@ -86,7 +86,7 @@
                 <td></td>
             </tr>
             <tr class="Columns">
-                <td><p>Conduite</p></td>
+                <td><p>&#10146; Conduite</p></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
@@ -94,7 +94,7 @@
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
             </tr>
             <tr class="Columns">
-                <td><p>Sécurité</p></td>
+                <td><p>&#10146; Sécurité</p></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
                 <td><input class="Input" type="text" name="" vlaue=""/></td>
