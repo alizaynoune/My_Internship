@@ -1,0 +1,97 @@
+.no-shadows {
+  box-shadow: none!important;
+  background-color: transparent;
+}
+
+label,
+.white-text {
+  color: white;
+}
+
+label {
+  font-size: large;
+  color: #023e8a;
+}
+
+textarea.materialize-textarea:focus:not([readonly])+label {
+  color: #023e8a;
+}
+
+.bold-text {
+  font-weight: bold!important;
+}
+
+form {
+  padding: 50px;
+}
+
+body {
+    background-image: url('../images/bg_left_corner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+nav
+{
+    background-color:#023e8a;
+}
+
+
+
+
+/**** Custom styles for Range ****/
+input[type=range]::-webkit-slider-thumb {
+  background-color:  #0077b6;
+}
+input[type=range]::-moz-range-thumb {
+  background-color:  #0077b6;
+}
+input[type=range]::-ms-thumb {
+  background-color:  #0077b6;
+}
+/* For the globe and the text inside */
+input[type=range] + .thumb {
+  background-color:  #0077b6;
+}
+
+
+
+.card-title,
+.page-footer,
+#info {
+ background-color: #0077b6; 
+}
+
+.card-image-size {
+  height: 50vh;
+}
+
+.logo-images {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.logoSotreg{
+
+  float: right;
+}
+
+
+.range-field {
+  margin: 50px;
+}
+
+#textarea2 {
+  border-bottom-color: #0077b6;
+  font-size: 20px;
+}

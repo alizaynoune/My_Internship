@@ -1,3 +1,3 @@
 <?php
-    header("Location: app/view/SRC/Home.php");
+    header("Location: app/view/index.html");
 ?>
