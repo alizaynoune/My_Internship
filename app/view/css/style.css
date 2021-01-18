@@ -82,8 +82,10 @@ input[type=range] + .thumb {
 }
 
 .logoSotreg{
-
-  float: right;
+  position: absolute;
+  right: 10px;
+  top: 0%;
+  padding: 0%;
 }
 
 
@@ -95,3 +97,4 @@ input[type=range] + .thumb {
   border-bottom-color: #0077b6;
   font-size: 20px;
 }
+

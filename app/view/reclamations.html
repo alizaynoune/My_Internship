@@ -2,24 +2,26 @@
 <html lang="fr">
 
 <head>
+    <style>
+        p {
+            font-size: 20px;
+            font-weight: bold; margin-top: 30px
+        }
+    </style>
     <meta charset="UTF-8">
-    <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.js"
         integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
-
-    <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
     <nav>
         <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo center">suivi des réclamations des clients</a>
+            <a href="index.html" class="brand-logo center" style="display: inline; width: 100%;">suivi des réclamations des clients</a>
         </div>
     </nav>
 
@@ -44,7 +46,7 @@
 
             <div class="input-field col s6">
                 <p>Poste</p>
-                <input  type="text" class="validate">
+                <input type="text" class="validate">
             </div>
 
             <div class="input-field col s12">
@@ -66,7 +68,7 @@
                 <div class="input-field col s12">
                     <i class="material-icons prefix">mode_edit</i>
                     <textarea id="textarea2" class="materialize-textarea" data-length="600"></textarea>
-                    <label for="textarea2">Description de la redamation:</label>
+                    <label for="textarea2"><p style="margin-top: -5px;"> de la redamation:</p></label>
                 </div>
             </div>
 
@@ -80,31 +82,30 @@
 
             <div class="input-field col s6">
                 <p>Categorie de la redamation</p>
-                <input  type="text" class="validate">
+                <input type="text" class="validate">
             </div>
 
 
             <div class="input-field col s6">
                 <p>Type de la redamation</p>
-                <input  type="text" class="validate">
+                <input type="text" class="validate">
             </div>
 
             <div class="input-field col s6">
                 <p>Cause Racine</p>
-                <input  type="text" class="validate">
+                <input type="text" class="validate">
             </div>
 
             <div class="input-field col s6">
                 <p>Actions correctives</p>
-                <input  type="text" class="validate">
+                <input type="text" class="validate">
             </div>
 
 
             <div class="input-field col s6">
                 <p>Resposable de l'action/Service</p>
-                <input  type="text" class="validate">
+                <input type="text" class="validate">
             </div>
-
             <p>Darte de la realisation</p>
             <input type="text" class="datepicker" />
 
@@ -114,8 +115,8 @@
             <div class="row">
                 <div class="input-field col s12">
                     <i class="material-icons prefix">mode_edit</i>
-                    <textarea id="textare1" class="materialize-textarea" data-length="600"></textarea>
-                    <label for="textarea1">Efficacite de l'action(*apres analyse de la repetitivite de la reclamation:mensuellement):</label>
+                    <textarea id="textarea1" class="materialize-textarea" data-length="600"></textarea>
+                    <label for="textarea1"><p style="margin-top: -5px;"> de la redamation:</p></label>
                 </div>
             </div>
 
@@ -133,7 +134,7 @@
         <div class="container">
             <div class="row">
                 <div class="col s6 center-align">
-                    <a href="https://www.ocpgroup.ma/"><img src="images/OCP.jpg"
+                    <a href="#"><img src="images/OCP.jpg"
                             class="responsive-img logo-images z-depth-3" /></a>
                 </div>
                 <div class="col s6 center-align">
